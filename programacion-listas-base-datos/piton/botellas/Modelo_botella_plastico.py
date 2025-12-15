@@ -22,3 +22,19 @@ class Botella_plastico(Botella):
         super().imprimir_info()
         print("----------------------------------------------------------------------------------------")
         print(f"el tinte es: {self.tinte} \nes reutilizable: {self.Reutilizable} \ncon un cierre: {self.cierre} \nresistencia de liquido: {self.resistencia}")
+    
+    #----------------------------------------------------------
+    def set_Transporte(self, transporte_BD):
+        self.Transporte = transporte_BD
+    def set_compatibilidad(self, compatibilidad_BD):
+        self.compatibilidad = compatibilidad_BD
+    def set_Reutilizable(self, reutilizable_BD):
+        self.Reutilizable = reutilizable_BD
+    def set_cierre(self, cierre_BD):
+        self.cierre = cierre_BD
+    def set_resistencia(self, resistencia_BD):
+        self.resistencia = resistencia_BD
+    
+        
+        
+        

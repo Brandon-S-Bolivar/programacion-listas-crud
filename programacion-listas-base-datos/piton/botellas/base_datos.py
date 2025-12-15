@@ -30,9 +30,35 @@ list_botella.append(Botella_datos)
 list_botella_plas.append(Botella_plastico_datos)
 list_botella_vidrio.append(Botella_vidrio_datos)
 
+list_botella.clear()
+list_botella_plas.clear()
+list_botella_vidrio.clear()
+#_____________________modificando_______________________
+def cambiar_botella():
+    Botella_datos.set_Material ("Acero inoxidable")
+    Botella_datos.set_Capacidad("750 ml")
+    Botella_datos.set_forma("cubica")
+    Botella_datos.set_diseño("vintage")
+    Botella_datos.set_grabados("starbucks")
 
 
+def cambiar_botella_plastico():
+    Botella_plastico_datos.set_Transporte("botella deportiva")
+    Botella_plastico_datos.set_compatibilidad("liquidos frios")
+    Botella_plastico_datos.set_Reutilizable("si")
+    Botella_plastico_datos.set_cierre("a presion")
+    Botella_plastico_datos.set_resistencia("fria")
 
+#______________________________________________________
 
+def cambiar_botella_vidrio():
+    Botella_vidrio_datos.set_Transporte("botella manual")
+    Botella_vidrio_datos.set_compatibilidad("liquidos frios")
+    Botella_vidrio_datos.set_Reutilizable("si")
+    Botella_vidrio_datos.set_cierre("a presion")
+    Botella_vidrio_datos.set_resistencia("fria")
 
-
+#______________________________________________________
+list_botella.append(Botella_datos)
+list_botella_plas.append(Botella_plastico_datos)
+list_botella_vidrio.append(Botella_vidrio_datos)

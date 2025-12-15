@@ -21,19 +21,7 @@ class Botella:
     def imprimir_info(self):
         print("----------------------------------------------------------------------------------------")   
         print(f"el material es: {self.Material} \nla capacidad es: {self.Capacidad} \nla forma es: {self.Forma} \nel diseño es: {self.Diseño} \ncon el grabado: {self.Grabados}")
-          
-    #----------------------------------------------------------
-    
-    def get_Material(self):
-        return self.Material
-    def get_Capacidad(self):
-        return self.Capacidad
-    def get_forma(self):
-        return self.Forma
-    def get_diseño(self):
-        return self.Diseño
-    def get_grabados(self):
-        return self.Grabados
+        
     #----------------------------------------------------------
     def set_Material(self, material_BD):
         self.Material= material_BD

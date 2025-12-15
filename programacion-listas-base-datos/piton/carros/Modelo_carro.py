@@ -9,3 +9,14 @@ class Carro:
     def mostrar_informacion(self):
         info = f"Marca: {self.Marca}\n Modelo: {self.Modelo}\n Año: {self.Año}\n Color: {self.Color}\n Tipo de Combustible: {self.Tipo_combustible}\n"
         return info
+    
+    def set_marca(self, nueva_marca):
+        self.Marca = nueva_marca
+    def set_modelo(self, nuevo_modelo):
+        self.Modelo = nuevo_modelo
+    def set_año(self, nuevo_año):
+        self.Año = nuevo_año
+    def set_color(self, nuevo_color):
+        self.Color = nuevo_color
+    def set_tipo_combustible(self, nuevo_tipo_combustible):
+        self.Tipo_combustible = nuevo_tipo_combustible

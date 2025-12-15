@@ -1,4 +1,11 @@
-from Modelo_carrp_deportivo import CarroDeportivo
+from base_datos import *
 
-carro_deportivo = CarroDeportivo("Ferrari", "488 GTB", 2020, "Rojo", "Gasolina", 330, 3.0)
-print(carro_deportivo.mostrar_informacion())
+
+for carro in lista_carro:
+    print(carro.mostrar_informacion())
+    
+print("\n datos midificados \n")
+modificar_carro(0, "Lamborghini", "Huracan EVO", 2021, "Amarillo", "Gasolina", 325, 2.9)
+
+for carro in lista_carro:
+    print(carro.mostrar_informacion())
